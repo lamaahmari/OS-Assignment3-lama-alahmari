@@ -176,7 +176,9 @@ class Process implements Runnable {
                                   Colors.RESET);
             }
             System.out.println();
-            
+          } catch (InterruptedException e) {
+                e.printStackTrace();  
+        
         } finally {
             // TODO #4: Release CPU semaphore here
             SharedResources.cpuSemaphore.release();
