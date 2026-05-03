@@ -117,7 +117,7 @@ Make one last check to make sure there are no mistakes before submitting.
 
 **Your Answer**:
 
-[Only one thread can access a crucial portion at a time thanks to reentrant lock, which ensures mutual exclusion. It is employed in this assignment to safeguard shared variables, such as executionLog and counters. Conversely, a semaphore is used to manage several threads' access to a resource. Here, only one process can use the CPU at a time thanks to a binary semaphore (1 permit). Semaphores regulate resource access, whereas locks safeguard data.]
+[Only one thread can access a crucial portion at a time thanks to reentrant lock, which ensures mutual exclusion. It is employed in this assignment to safeguard shared variables, such as executionLog and counters. Conversely, a semaphore is used to manage several threads' access to a resource. Here, only one process can use the CPU at a time thanks to a binary semaphore (1 permit). Semaphores regulate resource access, whereas locks safeguard data]
 
 ---
 
