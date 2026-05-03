@@ -227,7 +227,25 @@ java SchedulerSimulationSync
 java SchedulerSimulationSync
 java SchedulerSimulationSync
 **Results**: 
-(Every run yielded consistent outcomes with accurate statistics.)
+Total Context Switches: 23
+Total Completed Processes: 11
+Total Waiting Time: 584777ms
+Average Waiting Time: 53161ms
+
+═══ Process Summary Table ═══
+Process    Priority     Burst Time   Waiting Time
+────────────────────────────────────────────────
+P1         2            7858         39278       
+P2         1            6178         43160       
+P3         5            9273         64392       
+P4         2            8566         65674       
+P5         5            7460         53379       
+P6         5            5894         56848       
+P7         1            8119         66249       
+P8         4            6483         62767       
+P9         1            3317         32216       
+P10        4            3686         35549       
+P11        3            7116         65265
 
 **Why synchronization is necessary**: 
 (Explain what race conditions COULD occur without synchronization, even if you didn't observe them. Explain which shared resources need protection and why.)
