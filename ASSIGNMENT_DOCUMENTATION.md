@@ -287,7 +287,6 @@ Synchronization ensures stability across conditions
 ---
 
 ## Part 5: Reflection and Learning
-
 ### What I learned about synchronization:
 
 [I discovered how race problems arise in multithreaded systems and how to use locks and semaphores to prevent them. I recognised the significance of limiting access to important areas and safeguarding shared resources. I also discovered that inadequate synchronisation can result in inaccurate outcomes and unstable systems.]
@@ -298,9 +297,9 @@ Synchronization ensures stability across conditions
 
 Give TWO examples where synchronization is critical:
 
-**Example 1**: Banking systems in which the same account balance is updated by several transactions
+Example 1: Banking systems in which the same account balance is updated by several transactions
 
-**Example 2**: Scheduling of the operating system when several processes share CPU resources
+Example 2: Scheduling of the operating system when several processes share CPU resources
 
 ---
 
@@ -309,7 +308,6 @@ Give TWO examples where synchronization is critical:
 [Similar to a queue, synchronisation allows just one individual to utilise a resource at a time. Semaphores regulate the number of threads that can access a resource, while locks guarantee that only one thread can enter a crucial area.]
 
 ---
-
 ## Part 6: GitHub Repository Information
 
 **Repository URL**: 
