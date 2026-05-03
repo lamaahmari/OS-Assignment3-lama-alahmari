@@ -313,7 +313,7 @@ Example 2: Scheduling of the operating system when several processes share CPU r
 **Repository URL**: 
 https://github.com/lamaahmari/OS-Assignment3-lama-alahmari.git
 **Number of commits**: 
-6+
+18
 **Commit messages**: 
 1.Set my student ID
 2.Add synchronization libraries
