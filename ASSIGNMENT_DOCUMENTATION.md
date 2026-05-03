@@ -146,15 +146,13 @@ Make one last check to make sure there are no mistakes before submitting.
 ## Part 3: Synchronization Analysis (1 mark)
 
 ### Critical Section #1: Counter Variables
-
-**Which variables**: 
+Which variables: 
 totalWaitingTime, completedProcessCount, and contextSwitchCount
-**Why they need protection**: 
+Why they need protection: 
 They can be changed concurrently and are shared by several threads.
-**Synchronization mechanism used**: 
+Synchronization mechanism used:
 Reentrant Lock
-**Code snippet**:
-```java
+Code snippet:
 // Paste your implementation here
 ```lock.lock();
 try {
@@ -200,15 +198,14 @@ In runToCompletion() and run()
 **Code snippet**:
 ```java
 SharedResources.cpuSemaphore.acquire();
-try {
+    try {
     // execution
-} finally {
+      } finally {
     SharedResources.cpuSemaphore.release();
 }
 // Paste your implementation here
-```
 
-**Effect on program behavior**: 
+Effect on program behavior: 
 avoids simultaneous CPU utilisation and guarantees sequential execution.
 ---
 
@@ -316,7 +313,7 @@ Give TWO examples where synchronization is critical:
 ## Part 6: GitHub Repository Information
 
 **Repository URL**: 
-
+https://github.com/lamaahmari/OS-Assignment3-lama-alahmari.git
 **Number of commits**: 
 6+
 **Commit messages**: 
